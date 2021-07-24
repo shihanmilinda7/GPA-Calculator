@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/forecasting_menu"
+            android:icon="@drawable/forecasting_icon"
+            android:title="Result Analysis" />
+
+        <item
+            android:id="@+id/results_menu"
+            android:icon="@drawable/results_icon"
+            android:title="Results" />
+
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item android:title="Authentication">
+            <menu>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Settings">
+            <menu>
+                <item
+                    android:id="@+id/settings_menu"
+                    android:icon="@drawable/settings_icon"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/about_menu"
+                    android:icon="@drawable/about_icon"
+                    android:title="About" />
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>

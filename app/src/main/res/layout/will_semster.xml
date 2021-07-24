@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_1"
+    tools:context=".Will_Semesters">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient_2"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp">
+
+            <TextView
+                android:id="@+id/curGpa"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="3.30"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:background="@drawable/gradient_1"
+                android:textColor="#021FA0"
+                />
+
+            <TextView
+                android:id="@+id/removeSub"
+                android:layout_width="149dp"
+                android:layout_height="53dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="241dp"
+                android:layout_marginLeft="241dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="0dp"
+                android:text="Selected Subjects"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:background="@drawable/gradient_1"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/list2"/>
+
+</LinearLayout>

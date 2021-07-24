@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    tools:context=".Setting">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/curved_background_2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/curved_background">
+
+            <ImageView
+                android:id="@+id/reset_password"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/reset_password" />
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/reset_password"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-black"
+                android:text="Update Password"
+                android:textSize="35dp" />
+            <EditText
+                android:id="@+id/oldpassword"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/reset_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:background="#11000000"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:hint="Old Password"
+                android:inputType="textPassword"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/password1"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/reset_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="130dp"
+                android:background="#11000000"
+                android:ems="10"
+                android:hint="New Password"
+                android:paddingLeft="5dp"
+                android:inputType="textPassword"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/password2"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/password1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:background="#11000000"
+                android:ems="10"
+                android:textSize="16dp"
+                android:paddingLeft="5dp"
+                android:hint="Confirm New Password"
+                android:inputType="textPassword" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="500dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/password2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:elevation="10dp"
+                android:hapticFeedbackEnabled="false"
+                app:cardBackgroundColor="#A711C1"
+                app:cardCornerRadius="25dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="Update"
+                        android:textColor="#F1D172"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

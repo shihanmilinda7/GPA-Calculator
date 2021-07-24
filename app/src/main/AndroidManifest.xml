@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.connfirebase">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/calculate_gpa"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".About"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Setting"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Analysis_Sub_Final"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Analysis_Sub_Details"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Analysis_Sem_Details"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Will_Semesters"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Done_Semesters_Result"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Done_Semesters"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Profile_Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login_Activity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

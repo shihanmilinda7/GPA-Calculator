@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient_2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/gradient_1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="775dp"
+                android:background="@drawable/gradient_2"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/sResult"
+                    android:layout_width="48dp"
+                    android:layout_height="54dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="-10dp"
+                    android:layout_marginRight="-10dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="B+"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/sCode"
+                    android:layout_width="470dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="92dp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginRight="92dp"
+                    android:text="IT 4004"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sName"
+                    android:layout_width="468dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="10dp"
+                    android:layout_marginEnd="93dp"
+                    android:layout_marginRight="93dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Advanced Database System"
+                    android:textSize="16dp" />
+
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:src="@drawable/bookmark"
+                android:layout_marginTop="-40dp"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

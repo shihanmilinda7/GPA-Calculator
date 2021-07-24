@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/gradient_1"
+    tools:context=".Done_Semesters_Result">
+    <ImageView
+        android:id="@+id/titleDialogBoxImg"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/logout_icon"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:id="@+id/titleDialogBox"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:layout_weight="0.75"
+        android:textSize="20sp" />
+
+</LinearLayout>

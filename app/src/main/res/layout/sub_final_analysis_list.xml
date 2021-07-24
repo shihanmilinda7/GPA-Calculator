@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/A"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/curved_background">
+
+        <TextView
+            android:id="@+id/ResultType"
+            android:layout_width="268dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="98dp"
+            android:layout_marginRight="98dp"
+            android:layout_marginBottom="0dp"
+            android:text="A"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Prasantage"
+            android:layout_width="94dp"
+            android:layout_height="39dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="7dp"
+            android:gravity="center"
+            android:text="48%"
+            android:textAlignment="center"
+            android:textColor="#021FA0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
